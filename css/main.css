@@ -74,6 +74,15 @@ section p {
     font-size: 100%;
     line-height: 1.3;
   }
+
+  .img-flex {
+    width: 100%;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 1.75em;
+    padding-right: 1.75em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -82,6 +91,20 @@ section p {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  .section-letter {
+    float: left;
+    max-width: 5em;
+  }
+
+  .section-icon {
+    float: right;
+    max-width: 5em;
+  }
+
+  .section-body {
+    max-width: 40em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -89,6 +112,13 @@ section p {
   body {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .wrapper {
+    overflow: hidden;
+    width: 100%;
+    max-width: 75em;
+    margin: 0 auto;
   }
 }
 
